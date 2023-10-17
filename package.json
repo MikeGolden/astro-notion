@@ -1,7 +1,10 @@
 {
-  "name": "",
+  "name": "notionclone",
+  "description": "Notion clone app and come more features, demo of astro features",
+  "author": "Mike Goldenberg",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +13,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.3.1"
+    "astro": "^3.3.1",
+    "postcss": "^8.4.31",
+    "postgres": "^3.4.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "eslint": "^8.51.0"
   }
 }
