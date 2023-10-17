@@ -1,6 +1,8 @@
 ---
+// Components Imports
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Button from '../components/Button.astro';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -60,6 +62,10 @@ import Card from '../components/Card.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		<div class="grid place-items-center h-screen content-center">
+			<Button>Tailwind Button in Astro!</Button>
+			<a href="/markdown-page" class="p-4 underline">Markdown is also supported...</a>
+		</div>
 	</main>
 </Layout>
 
